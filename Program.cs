@@ -4,10 +4,9 @@
     {
         public static async Task<int> Main(string[] args) => await Bootstrapper.Factory
             .CreateWeb(args)
-            .DeployToGitHubPagesBranch("sciism",
+            .DeployToGitHubPages("sciism",
             "sciism.github.io",
-            Config.FromSetting<string>("GITHUB_TOKEN"),
-            "master")
+            Config.FromSetting<string>("GITHUB_TOKEN"))
             .RunAsync();
     }
 }
