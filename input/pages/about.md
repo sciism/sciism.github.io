@@ -1,5 +1,5 @@
 NavbarTitle: About
-Order:1
+Order: 1
 Title: About
 Description: The life and times of Sciism
 ---
