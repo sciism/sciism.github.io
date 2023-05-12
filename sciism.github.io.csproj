@@ -11,4 +11,8 @@
     <PackageReference Include="Statiq.Web" Version="1.0.0-beta.54" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\deploy-statiq.yml" />
+  </ItemGroup>
+
 </Project>
