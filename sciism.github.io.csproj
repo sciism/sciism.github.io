@@ -15,8 +15,4 @@
     <None Include=".github\workflows\deploy-statiq.yml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="input\posts\Testing\" />
-  </ItemGroup>
-
 </Project>
