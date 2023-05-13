@@ -1,4 +1,4 @@
-Title: This Is And Example Post
+Title: This Is
 Lead: Yay for examples!
 Published: 5/12/2023
 Tags:
