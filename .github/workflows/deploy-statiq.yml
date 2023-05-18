@@ -20,6 +20,8 @@ jobs:
 
     - name: Build and Deploy
       run: dotnet run -- deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload Static Files
       uses: actions/upload-artifact@v2
