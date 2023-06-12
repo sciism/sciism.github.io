@@ -9,7 +9,7 @@ paginate = 7
 fancyTitle = "Sciism"
 # copyright = "John Doe"
 description = '''
-Dive into the world of Sciism, where software and game development flourish with collective insight<br /><br />Fueled by public voices and a culture of cooperation, we seel to embody transparency and mutual success
+Dive into the world where software and games flourish with collective insight fueled <br /><br />by public voices and a culture of cooperation, we seel to embody transparency and mutual success
 '''
 
 startbuttonText = "Projects"
