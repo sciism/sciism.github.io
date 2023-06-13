@@ -32,7 +32,7 @@ category = "categories"
 series = "series"
 
 [params.one]
-enable = true
+enable = false
 title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
 body = '''
 Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
@@ -55,7 +55,7 @@ style = "3"
 label = "Dolor"
 
 [params.two]
-enable = true
+enable = false
 title = 'Testing'
 body = '''
 Testing
@@ -76,7 +76,7 @@ title = 'Magna primis lobortis<br />sed ullamcorper'
 body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
 
 [params.three]
-enable = true
+enable = false
 title = 'Accumsan mus tortor nunc aliquet'
 body = '''
 Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
@@ -114,7 +114,7 @@ title = "Nothing important"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 [params.cta]
-enable = true
+enable = false
 title = "Arcue ut vel commodo"
 body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
 
