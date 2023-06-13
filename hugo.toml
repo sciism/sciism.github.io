@@ -9,7 +9,7 @@ paginate = 7
 fancyTitle = "Sciism"
 # copyright = "John Doe"
 description = '''
-Dive into the world where software and games flourish with collective insight fueled <br /><br />by public voices and a culture of cooperation, we seel to embody transparency and mutual success
+Games and software by the people
 '''
 
 startbuttonText = "Projects"
@@ -32,7 +32,7 @@ category = "categories"
 series = "series"
 
 [params.one]
-enable = false
+enable = true
 title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
 body = '''
 Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
@@ -55,7 +55,7 @@ style = "3"
 label = "Dolor"
 
 [params.two]
-enable = false
+enable = true
 title = 'Testing'
 body = '''
 Testing
@@ -76,7 +76,7 @@ title = 'Magna primis lobortis<br />sed ullamcorper'
 body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
 
 [params.three]
-enable = false
+enable = true
 title = 'Accumsan mus tortor nunc aliquet'
 body = '''
 Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
@@ -114,7 +114,7 @@ title = "Nothing important"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 [params.cta]
-enable = false
+enable = true
 title = "Arcue ut vel commodo"
 body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
 
@@ -126,10 +126,10 @@ special = true
 [[params.cta.link]]
 href = "#"
 text = "Learn More"
-special = false
+special = true
 
 [params.contact]
-enable = false
+enable = true
 title = "Contact"
 body = "Leave us a message."
 # phone = "+49 (0) 030 000 000"
