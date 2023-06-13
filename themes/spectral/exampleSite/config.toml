@@ -6,7 +6,7 @@ paginate = "7"
 theme = "spectral"
 
 [params]
-fancyTitle = "Spectral" # title for frontpage, may include image
+fancyTitle = "Spectral"                                                                                                                                                                      # title for frontpage, may include image
 copyright = "John Doe"
 description = 'Another fine responsive<br />site template freebie<br />crafted by <a href="http://html5up.net">HTML5 UP</a>.<br />Ported to <a href="//gohugo.io">Hugo</a> by Simon Bruder.'
 startbuttonText = "Activate"
@@ -24,9 +24,9 @@ url = '/posts/'
 title = "Posts"
 
 [taxonomies]
-    tag = "tags"
-    category = "categories"
-    series = "series"
+tag = "tags"
+category = "categories"
+series = "series"
 
 [params.one]
 enable = true
@@ -130,7 +130,6 @@ phone = "+49 (0) 030 000 000"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "nospam@example.com"
 subject = "New Submission!"
-formspree_form_id = "example_invalid"
 
 [params.social]
 twitter = ""

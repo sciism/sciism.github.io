@@ -136,7 +136,6 @@ body = "Leave us a message."
 # address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "info@sciism.com"
 subject = "New Submission!"
-formspree_form_id = "example_invalid"
 
 # [params.social]
 # twitter = ""
