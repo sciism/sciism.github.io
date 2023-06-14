@@ -1,7 +1,6 @@
 baseURL = 'https://sciism.com/'
 languageCode = 'en-us'
 title = 'Sciism'
-theme = 'spectral'
 defaultContentLanguage = "en"
 paginate = 7
 
