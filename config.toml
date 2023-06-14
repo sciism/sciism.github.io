@@ -8,9 +8,8 @@ paginate = 7
 [params]
 fancyTitle = "Sciism"
 # copyright = "John Doe"
-description = '''
-Games and software by the people
-'''
+description = "Games and software by the people"
+favicon = "/favicon.ico"
 
 startbuttonText = "Projects"
 startbuttonLink = "#"
