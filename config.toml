@@ -136,10 +136,10 @@ body = "Leave us a message."
 email = "info@sciism.com"
 subject = "New Submission!"
 
-# [params.social]
+[params.social]
 # twitter = ""
 # mastodon = ""
-# github = ""
+github = "https://github.com/sciism"
 # facebook = ""
 # youtube = ""
 # instagram = ""
