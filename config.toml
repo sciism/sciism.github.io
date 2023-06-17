@@ -1,151 +1,19 @@
-baseURL = 'https://sciism.com/'
-languageCode = 'en-us'
-title = 'Sciism'
-defaultContentLanguage = "en"
-paginate = 7
+# The URL the site will be built for
+base_url = "https://sciism.com"
 
-[params]
-fancyTitle = "Sciism"
-# copyright = "John Doe"
-description = "Games and software by the people"
-favicon = "/favicon.ico"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
 
-startbuttonText = "Projects"
-startbuttonLink = "#"
-body_is_markdown = false
-#custom_css = "foo.css"
-#images = ["path_to_social_image_for_link_previews.jpg"]
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
 
-[[params.menu.main]]
-url = '/'
-title = "Home"
+# The site theme to use.
+theme = "abridge"
 
-[[params.menu.main]]
-url = '/posts/'
-title = "Posts"
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
 
-[taxonomies]
-tag = "tags"
-category = "categories"
-series = "series"
-
-[params.one]
-enable = false
-title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
-body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
-'''
-
-[[params.one.icon]]
-icon = "fa-gem"
-style = "1"
-label = "Lorem"
-
-[[params.one.icon]]
-icon = "fa-heart"
-style = "2"
-label = "Ipsum"
-
-[[params.one.icon]]
-icon = "solid fa-code"
-style = "3"
-label = "Dolor"
-
-[params.two]
-enable = false
-title = 'Testing'
-body = '''
-Testing
-'''
-
-[[params.two.section]]
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
-[[params.two.section]]
-img = "img/pic02.jpg"
-title = 'Tortor dolore feugiat<br />elementum magna'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
-[[params.two.section]]
-img = "img/pic03.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
-[params.three]
-enable = false
-title = 'Accumsan mus tortor nunc aliquet'
-body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
-'''
-
-[[params.three.feature]]
-icon = "fa-paper-plane"
-title = "Arcu accumsan"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "solid fa-laptop"
-title = "Ac Augue Eget"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "solid fa-code"
-title = "Foo bar"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "solid fa-headphones-alt"
-title = "Baz kram"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "fa-heart"
-title = "Some latin text"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "fa-flag"
-title = "Nothing important"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[params.cta]
-enable = false
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
-
-[[params.cta.link]]
-href = "#"
-text = "Activate"
-special = true
-
-[[params.cta.link]]
-href = "#"
-text = "Learn More"
-special = true
-
-[params.contact]
-enable = true
-title = "Contact"
-body = "Leave us a message."
-# phone = "+49 (0) 030 000 000"
-# address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "info@sciism.com"
-subject = "New Submission!"
-
-[params.social]
-# twitter = ""
-# mastodon = ""
-github = "https://github.com/sciism"
-# facebook = ""
-# youtube = ""
-# instagram = ""
-# dribble = ""
-
-# language specific options
-
-[languages.en]
-weight = 0
-languageName = "English"
+[extra]
+# Put all your custom variables here
