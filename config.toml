@@ -8,7 +8,7 @@ compile_sass = true
 build_search_index = false
 
 # The site theme to use.
-theme = "abridge"
+theme = "d3c3nt"
 
 [markdown]
 # Whether to do syntax highlighting
