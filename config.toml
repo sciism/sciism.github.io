@@ -17,9 +17,3 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-email = "info@sciism.com"
-license = ""
-homepage = ""
-git_source = "https://github.com/sciism"
-subtitle = ""
-author = "Sciism"
