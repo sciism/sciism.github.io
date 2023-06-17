@@ -20,3 +20,6 @@ highlight_code = false
 email = "info@sciism.com"
 license = ""
 homepage = ""
+git_source = "https://github.com/sciism"
+subtitle = ""
+author = "Sciism"
