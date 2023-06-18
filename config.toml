@@ -8,7 +8,7 @@ compile_sass = true
 build_search_index = false
 
 # The site theme to use.
-# theme = "d3c3nt"
+theme = "tilde"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -17,3 +17,9 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+homepage = ""   # author homepage
+subtitle = ""   # blog subtitle
+git_source = "" # blog source code
+author = ""     # author name
+email = ""      # author email
+license = ""    # blog license
